@@ -21,7 +21,8 @@ Built with **Python** and **Streamlit**, ShaktiBot supports both **text and voic
 ```
 ShaktiBot_Advanced/
 ├── Home.py                  # Landing page with intro & navigation
-├── Chat.py                  # Main chatbot interface
+├──| pages
+    |  Chat.py                  # Main chatbot interface
 ├── classifier.py            # Intent classification logic
 ├── intents.json             # Predefined intents and responses
 ├── responses_hi.json        # Hindi response mappings
