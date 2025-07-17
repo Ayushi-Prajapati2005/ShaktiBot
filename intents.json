@@ -1,0 +1,128 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning"],
+      "responses": {
+        "English": "Hello! How can I help you today?",
+        "Hindi": "नमस्ते! मैं आपकी कैसे मदद कर सकती हूँ?",
+        "Gujarati": "હેલો! હું તમને કેવી રીતે મદદ કરી શકું?"
+      }
+    },
+    {
+      "tag": "feeling_sad",
+      "patterns": ["I'm feeling sad", "I am depressed", "I feel low"],
+      "responses": {
+        "English": "I'm sorry you're feeling this way. You're not alone — talking to someone can really help.",
+        "Hindi": "मुझे खेद है कि आप ऐसा महसूस कर रहे हैं। आप अकेले नहीं हैं — किसी से बात करना मदद कर सकता है।",
+        "Gujarati": "મને દુઃખ છે કે તમે આવી સ્થિતિમાં છો. તમે એકલા નથી — કોઈ સાથે વાત કરવી ઉપયોગી થાય છે."
+      }
+    },
+    {
+      "tag": "career_help",
+      "patterns": [
+        "I want to become an engineer",
+        "Help me with career options",
+        "Can I learn coding?",
+        "Suggest career paths for girls",
+        "How do I start a tech career?",
+        "I want to be a web developer"
+      ],
+      "responses": {
+        "English": "You're amazing for thinking big! Try platforms like www.code.org, www.girlswhocode.com, or www.geeksforgeeks.org. You can do this!",
+        "Hindi": "बड़ा सोचने के लिए आप काबिल हैं! www.code.org, www.girlswhocode.com, या www.geeksforgeeks.org जैसे प्लेटफॉर्म से शुरुआत करें। आप यह कर सकती हैं!",
+        "Gujarati": "મોટું વિચારવા બદલ શાબાશ! તમે www.code.org, www.girlswhocode.com અથવા www.geeksforgeeks.org પરથી શરુઆત કરી શકો છો. તમે જરૂર કરી શકો છો!"
+      }
+    },
+    {
+      "tag": "legal_rights",
+      "patterns": [
+        "What are my rights at work?",
+        "I'm facing harassment",
+        "Can you tell me about laws?",
+        "What is POSH act?",
+        "Rights for women in India",
+        "Can I file a complaint?"
+      ],
+      "responses": {
+        "English": "You're protected under laws like the POSH Act for workplace safety and the Domestic Violence Act. For help, call 181 or 1091. You’re not alone.",
+        "Hindi": "आप POSH एक्ट और घरेलू हिंसा अधिनियम जैसे कानूनों के तहत सुरक्षित हैं। मदद के लिए 181 या 1091 पर कॉल करें। आप अकेली नहीं हैं।",
+        "Gujarati": "તમે POSH ઍક્ટ અને ઘેરલુ હિંસા ઍક્ટ જેવા કાયદાઓ હેઠળ સુરક્ષિત છો. મદદ માટે 181 અથવા 1091 પર કોલ કરો. તમે એકલી નથી."
+      }
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I'm feeling low",
+        "Inspire me",
+        "I can't do this",
+        "I feel weak",
+        "I want to give up"
+      ],
+      "responses": {
+        "English": "You are powerful beyond measure. Every woman who changed the world started where you are. Keep going — the world needs your light.",
+        "Hindi": "आपमें असीम शक्ति है। हर उस महिला ने, जिसने दुनिया बदली, आपकी ही तरह शुरुआत की थी। आगे बढ़िए — दुनिया को आपकी रोशनी की ज़रूरत है।",
+        "Gujarati": "તમે અમિત શક્તિથી ભરપૂર છો. દરેક એવી મહિલા જેમણે વિશ્વ બદલ્યું, અહીંથી જ શરુ કર્યું હતું. આગળ વધો — વિશ્વને તમારું પ્રકાશ જોઈતું છે."
+      }
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "I'm stressed",
+        "I have anxiety",
+        "Can I talk to someone?",
+        "I feel depressed",
+        "I need mental health support"
+      ],
+      "responses": {
+        "English": "Mental health matters. Please know you’re not alone. You can talk to a counselor via iCall (9152987821) or visit www.vandrevalafoundation.com.",
+        "Hindi": "मानसिक स्वास्थ्य महत्वपूर्ण है। कृपया जान लें कि आप अकेली नहीं हैं। आप iCall (9152987821) पर काउंसलर से बात कर सकती हैं या www.vandrevalafoundation.com पर जाएं।",
+        "Gujarati": "મનસિક આરોગ્ય મહત્વપૂર્ણ છે. તમે એકલી નથી એ જાણવું જરૂરી છે. તમે iCall (9152987821) પર કાઉન્સલર સાથે વાત કરી શકો છો અથવા www.vandrevalafoundation.com પર જઈ શકો છો."
+      }
+    },
+    {
+      "tag": "safety_info",
+      "patterns": [
+        "I feel unsafe",
+        "Emergency contact",
+        "Helpline for women",
+        "I am being followed",
+        "What can I do if I'm in danger?"
+      ],
+      "responses": {
+        "English": "If you're in danger, call 1091 (Women Helpline) or 100 immediately. Share your location with someone you trust. You are not alone.",
+        "Hindi": "अगर आप खतरे में हैं, तो तुरंत 1091 (महिला हेल्पलाइन) या 100 पर कॉल करें। किसी भरोसेमंद व्यक्ति को अपना स्थान साझा करें। आप अकेली नहीं हैं।",
+        "Gujarati": "જો તમે જોખમમાં હોવ તો તાત્કાલિક 1091 (મહિલા હેલ્પલાઇન) અથવા 100 પર કોલ કરો. કોઈ વિશ્વાસપાત્ર વ્યક્તિ સાથે તમારું લોકેશન શેર કરો. તમે એકલી નથી."
+      }
+    },
+    {
+      "tag": "education_support",
+      "patterns": [
+        "Scholarships for girls",
+        "Free education resources",
+        "Online learning for women",
+        "I want to study but can't afford",
+        "Help me learn from home"
+      ],
+      "responses": {
+        "English": "Great to hear! You can check out www.nptel.ac.in, www.khanacademy.org, and www.scholarships.gov.in. Education is your right!",
+        "Hindi": "यह सुनकर अच्छा लगा! आप www.nptel.ac.in, www.khanacademy.org, और www.scholarships.gov.in देख सकती हैं। शिक्षा आपका अधिकार है!",
+        "Gujarati": "આ સાંભળીને આનંદ થયો! તમે www.nptel.ac.in, www.khanacademy.org અને www.scholarships.gov.in જોઈ શકો છો. શિક્ષણ તમારું અધિકાર છે!"
+      }
+    },
+    {
+      "tag": "success_stories",
+      "patterns": [
+        "Tell me a success story",
+        "Who are some inspiring women?",
+        "Role models for girls",
+        "Women who made it big"
+      ],
+      "responses": {
+        "English": "Kalpana Chawla, the first Indian woman in space, started as a dreamer like you. Read about Sudha Murthy, Falguni Nayar, and Malala for more inspiration!",
+        "Hindi": "कल्पना चावला, जो अंतरिक्ष में जाने वाली पहली भारतीय महिला थीं, आपकी ही तरह एक सपना देखने वाली थीं। सुधा मूर्ति, फाल्गुनी नायर, और मलाला की कहानियां पढ़ें!",
+        "Gujarati": "કલ્પના ચાવલા, પ્રથમ ભારતીય મહિલા કે જેઓ અંતરિક્ષમાં ગઈ હતી, તેમણે પણ તમારા જેવી જ સપના જોઈ હતી. વધુ પ્રેરણા માટે સુધા મૂર્તિ, ફાલ્ગુની નાયર અને મલાલાની કહાનીઓ વાંચો!"
+      }
+    }
+  ]
+}
